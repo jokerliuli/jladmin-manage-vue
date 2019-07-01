@@ -2,7 +2,7 @@
 module.exports = {
   NODE_ENV: '"production"',
   // 邵阿里云环境
-  // BASE_API: '"http://101.132.163.120:8090"'
+  BASE_API: '"http://101.132.163.120:8090"'
   // 本地环境
   // BASE_API: '"http://192.168.1.77:8090"'
   // 腾讯云环境
@@ -10,5 +10,5 @@ module.exports = {
   // 阿里云环境
   // BASE_API: '"http://47.100.27.31:8090"'
   // 张阿里云
-  BASE_API: '"http://47.101.158.124:8080"'
+  // BASE_API: '"http://47.101.158.124:8080"'
 }

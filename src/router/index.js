@@ -59,7 +59,7 @@ export const constantRouterMap = [
     children: [
       {
         path: 'website',
-        component: () => import('@/views/system/website/index'),
+        component: () => import('@/views/website/index'),
         name: 'Dashboard',
         meta: { title: '网站属性', icon: 'form', noCache: true }
       }
